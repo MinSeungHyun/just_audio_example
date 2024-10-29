@@ -32,6 +32,7 @@ class _MyHomePageState extends State<MyHomePage> {
     final player = AudioPlayer();
     await player.setAsset('audio/nature.mp3');
     await player.play();
+    await player.stop();
     await player.dispose();
   }
 
