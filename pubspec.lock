@@ -115,11 +115,12 @@ packages:
   just_audio:
     dependency: "direct main"
     description:
-      name: just_audio
-      sha256: b41646a8241688f1d99c2e69c4da2bb26aa4b3a99795f6ff205c2a165e033fda
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.9.41"
+      path: just_audio
+      ref: "fix/memory-leak"
+      resolved-ref: ffc4f89c24ea9a59e4a299edc92d41a075730d1d
+      url: "https://github.com/silgam/just_audio"
+    source: git
+    version: "0.9.42"
   just_audio_platform_interface:
     dependency: transitive
     description:
