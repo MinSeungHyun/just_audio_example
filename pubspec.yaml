@@ -13,9 +13,9 @@ dependencies:
   cupertino_icons: ^1.0.8
   just_audio:
     git:
-      url: https://github.com/silgam/just_audio
+      url: https://github.com/ryanheise/just_audio
       path: just_audio
-      ref: fix/memory-leak
+      ref: minor
 
 dev_dependencies:
   flutter_test:
